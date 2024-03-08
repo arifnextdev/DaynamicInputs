@@ -1,0 +1,32 @@
+{
+  "name": "addinputs",
+  "version": "1.0.0",
+  "description": "A reusable React component for adding input fields dynamically",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npx rollup -c",
+    "dev": " src/index.ts"
+  },
+  "keywords": [
+    "Daynamic Inputs",
+    "Inputs",
+    "Add Inputs",
+    "react",
+    "component",
+    "input field",
+    "dynamic"
+  ],
+  "author": "MD Ariful Islam",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.58",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.12.0",
+    "tslib": "^2.6.2"
+  }
+}
